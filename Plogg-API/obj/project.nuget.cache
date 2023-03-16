@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "yRlZbkSFhYAQ0yXI3lht4ot2T+9DmuW08akBaqmTZm8klLabOIkrZ3qjmq7jVFjhvSNbzbyOAG85buRFS2mlGA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Syphonphilter\\source\\repos\\Plogg-API\\Plogg-API\\Plogg-API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Syphonphilter\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Syphonphilter\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Syphonphilter\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\Syphonphilter\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\Syphonphilter\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\Syphonphilter\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

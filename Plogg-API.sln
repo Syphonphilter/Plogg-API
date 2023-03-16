@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plogg-API", "Plogg-API\Plogg-API.csproj", "{11EEEBDE-5E5F-46C0-9261-F8906B487562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11EEEBDE-5E5F-46C0-9261-F8906B487562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11EEEBDE-5E5F-46C0-9261-F8906B487562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11EEEBDE-5E5F-46C0-9261-F8906B487562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11EEEBDE-5E5F-46C0-9261-F8906B487562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7005A76B-93A7-4C86-8C74-961900C4E77B}
+	EndGlobalSection
+EndGlobal
