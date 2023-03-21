@@ -21,14 +21,9 @@ namespace Plogg_API.Controllers
         public async Task<IActionResult> Post(LocationModel location)
         {
             LocationHub.LatestLocation = location;
-
-            if (_timer == null)
-            {
-                _timer = new Timer(async (state) =>
-                {
-                    await _hubContext.Clients.All.SendAsync("ReceiveLocation", LocationHub.LatestLocation);
-                }, null, TimeSpan.Zero, TimeSpan.FromSeconds(3));
-            }
+            await _hubContext.Clients.All.SendAsync("ReceiveLocation", LocationHub.LatestLocation);
+               
+           
 
             return Ok();
         }

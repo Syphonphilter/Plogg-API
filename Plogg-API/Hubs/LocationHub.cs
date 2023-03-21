@@ -9,7 +9,7 @@ namespace Plogg_API.Hubs
 
         public override Task OnConnectedAsync()
         {
-            return Clients.Caller.SendAsync("ReceiveLocation", LatestLocation);
+            return Clients.All.SendAsync("ReceiveLocation", LatestLocation);
         }
 
         public void UpdateLocation(LocationModel location)
