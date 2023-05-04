@@ -10,6 +10,7 @@
         public bool hasAttachment { get; set; }
         public bool isReply { get; set; }
         public Guid? replyMessageID { get; set; }
+        public Guid? VendorID { get; set; }
 
         
         

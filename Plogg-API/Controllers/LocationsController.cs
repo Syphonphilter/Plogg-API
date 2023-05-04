@@ -23,7 +23,7 @@ namespace Plogg_API.Controllers
             LocationHub.LatestLocation = location;
             await _hubContext.Clients.All.SendAsync("ReceiveLocation", LocationHub.LatestLocation);
                
-           
+           // 
 
             return Ok();
         }
